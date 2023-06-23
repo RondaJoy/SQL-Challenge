@@ -43,4 +43,10 @@ CREATE TABLE salaries (
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
 	salary INT);
 	
-	
+-- View each new table with imported data.
+SELECT * FROM departments;
+SELECT * FROM titles;
+SELECT * FROM employees;
+SELECT * FROM dept_emp;
+SELECT * FROM dept_manager;
+SELECT * FROM salaries;
